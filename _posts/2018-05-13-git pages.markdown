@@ -138,4 +138,14 @@ git pages 부분에서 master를 브랜치로 pages 기능 활성화!
 
 ## 잠시만 왜 안되지
 
-좀 더 알아봐야겠다ㅎ 개짱나ㅎ
+만약에 별다른 config.yml파일의 편집없이 진행했다면 css 파일이 다음처럼 깨져서 local에서 보였던것과 다르게 보일 것이다.
+
+![image](https://user-images.githubusercontent.com/20515196/40054256-c2427268-5833-11e8-86f5-660aa36e039e.png)
+
+이유는 jekyll은 build를 통해서 _site라고 하는 폴더가 생기게 되고 그곳을 파싱해
+
+자원에 접근하게 되는데 자원을 접근하는 주소가 잘못되어 _site/assets파일에 접근하지 못해서 그렇다.
+
+이때는 _config.yml 파일의 baseurl의 위치를 /에서 /testblog 로 변경해보자
+
+## 진짜 끝
