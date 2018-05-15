@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "github pages 시작하기!"
+date:   2018-05-13 17:17:39 +0900
+categories: jekyll update
+---
+## 시작
+
+![Image](/assets/gitpages/testimage.png)
+
+개인적으로 개발자에게 가장 필요한 것이 있다면 빠르게 습득하고 기억 하는 것이다.
+
+많은 개발자들이 이런 목적을 가지고 업무에서 벗어나 개인적으로 공부 하고 있다.
+
+다음은 국내 개발 블로그를 모은 github 주소이다
+
+[`https://github.com/sarojaba/awesome-devblog`](https://github.com/sarojaba/awesome-devblog)
+
+이처럼 개인적인 공부(업무 외)의 한 전략으로 '블로깅'을 많은 개발자들이 시행하고 있다.
+
+주소를 보면 가장 많이 보이는 형식의 패턴이 바로 `https://"nickname".github.io/` 이다.
+
+이것은 github의 pages 기능을 사용할때 사용하게되는 default domain형식이다.
+
+이렇게 많은 개발자들이 github의 pages 기능을 쓰고 있다.
+
+### 왜 선택된 것일까?
+
+첫째는 공짜고 개발자들에게 접근성이 좋았던 것 같다. git으로 반영만 하면 알아서 build, deploy까지 자동으로 해준다.
+
+심지어 형상관리까지 해준다.(git이니까)
+
+호기심 많은 github를 사용하는 개발자들은 이 기능을 보고 사용하지 않아보는것도 이상할 정도다.
+
+둘째 github를 통해서 많은 프로젝트가 올라가 있는데 사용자는 그 프로젝트의 저장소에 
+
+그 프로젝트를 위해 어떤 기능 명세나 설명을 위한 페이지를 만들어 줄 수 있다.
+
+셋째로는 웹 프론트 기반으로 먼가 에디터를 사용해 작성하는 것보다 개인적으로 개발자 다운 것 같다.
+
+개발자들은 긱스러운 느낌을 좋아하니까.
+
+### 그럼 만들어보자
+
+github에서 다음의 주소를 통해서 생성 할 수 있다.
+
+[`https://pages.github.com/`](https://pages.github.com/)
+
+이 주소를 통해서 원격 저장소를 만들면 된다.
+
+원격저장소를 먼저 세팅하고 로컬 저장소에서 pull해서 환경을 구축해도 되고
+
+로컬저장소에 jekyll(github의 pages는 jekyll을 지원한다) 세팅을 해놓고 원격저장소로 보내도 된다.
+
+- jekyll : [https://jekyllrb-ko.github.io/](https://jekyllrb-ko.github.io/)
+
+이번에 내가 세팅을 해볼 환경은 내가 현재 사용하고 있는 형식이다.
+
+1. 로컬저장소에서 jekyll 환경 구축
+
+2. 원격저장소 생성
+
+3. 로컬저장소 -> 원격저장소 커밋
+
+~~~~
+로컬 환경에서 jekyll 세팅을 해주고 원격으로 넣어주는 이유는
+
+jekyll의 폴더 형식을 자동으로 잡아주어 첫 시작시 이해하기가 편하기 때문이다.
+
+예를 들어 post의 경우 _posts의 넣어두면 자동으로 홈페이지에서 
+
+_posts의 markdown 파일을 읽어서 홈페이지에 post 링크를 만들어준다.
+~~~~
+
