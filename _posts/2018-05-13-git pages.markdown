@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "github pages 시작하기!"
+title:  "github pages 5분만에 시작하기!"
 date:   2018-05-13 17:17:39 +0900
+ategories: posts
 ---
-![image](https://user-images.githubusercontent.com/20515196/40053662-a6a1b5ca-5831-11e8-8e51-77dc8ea6b0ae.png)
 
 # 시작
 
@@ -23,7 +23,7 @@ date:   2018-05-13 17:17:39 +0900
 
 이렇게 많은 개발자들이 github의 pages 기능을 쓰고 있다.
 
-## 왜 선택된 것일까
+# 왜 선택된 것일까
 
 첫째는 공짜고 접근성이 좋다. 심지어 형상관리까지 해준다.(git이니까)
 
@@ -43,7 +43,7 @@ pages 기능이 한가지 방법 일 것이다.
 
 개발자들은 긱스러운 느낌을 좋아하니까.
 
-## 그럼 만들어보자
+# 그럼 만들어보자
 
 github에서 다음의 주소를 통해서 생성 할 수 있다.
 
@@ -77,7 +77,7 @@ _posts의 markdown 파일을 읽어서 홈페이지에 post 링크를 만들어�
 
 (지금 보니 여러가지 다른 사람들이 이쁘게 꾸며놓은 jekyll template을 그냥 fork 떠서 사용하는것도 좋은 방법 인듯 하다.)
 
-## 로컬저장소에서 jekyll 환경 구축
+# 로컬저장소에서 jekyll 환경 구축
 
 - 먼저 gem을 이용해 로컬에 jekyll 설치 , 터미널에서 다음과 같이 설치한다
 
@@ -96,7 +96,7 @@ _posts의 markdown 파일을 읽어서 홈페이지에 post 링크를 만들어�
 
 ![기본 화면](https://user-images.githubusercontent.com/20515196/40053891-7fc47860-5832-11e8-87a9-c5dad230b9f1.png)
 
-## 저장소 세팅
+# 저장소 세팅
 
 [`https://github.com/new`](https://github.com/new)
 
@@ -131,12 +131,12 @@ git pages 부분에서 master를 브랜치로 pages 기능 활성화!
 ![기능 활성화](https://user-images.githubusercontent.com/20515196/40054038-fbf4d54c-5832-11e8-9a1c-fd7c6dacd8db.png)
 기능이 활성화 되있는 화면
 
-## 끝
+# 끝
 
 조금의 시간이 지난후 해당 url로 만들어진것을 확인 할 수 있다
 [https://ohjaewook.github.io/testblog/](https://ohjaewook.github.io/testblog/)에서 확인해보자
 
-## 잠시만 왜 안되지
+# 잠시만 왜 안되지
 
 만약에 별다른 config.yml파일의 편집없이 진행했다면 css 파일이 다음처럼 깨져서 local에서 보였던것과 다르게 보일 것이다.
 
@@ -148,4 +148,4 @@ git pages 부분에서 master를 브랜치로 pages 기능 활성화!
 
 이때는 _config.yml 파일의 baseurl의 위치를 /에서 /testblog 로 변경해보자
 
-## 진짜 끝
+# 진짜 끝
