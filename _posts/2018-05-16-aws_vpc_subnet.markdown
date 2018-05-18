@@ -23,22 +23,25 @@ VPC는 리전의 모든 가용 영역에 적용된다.
 
 ![Image](https://docs.aws.amazon.com/ko_kr/AmazonVPC/latest/UserGuide/images/subnets-diagram.png)
 
-VPC 10.0.0.0/16 \\
+VPC 10.0.0.0/16
 
-Subnet1 10.0.0.0/24 \\
+Subnet1 10.0.0.0/24
 
-Subnet2 10.0.1.0/24 \\
+Subnet2 10.0.1.0/24
 
 각 서브넷은 route table을 가지고 있는데
 
 만약에 route table을 통해 internet GW와 연결이 된 subnet이라면? 
-\\__public subnet__
+
+__public subnet__
 
 만약에 route table을 통해 internet GW과 연결이 되지않은 subnet이라면? 
-\\__private subnet__
+
+__private subnet__
 
 만약에 route table을 통해 internet GW과 연결이 되지않고 VPN과 연결된 subnet이라면?
-\\__vpn 전용 subnet__
+
+__vpn 전용 subnet__
 
 
 
