@@ -21,9 +21,12 @@ VPC는 리전의 모든 가용 영역에 적용된다.
 
 서브넷 생성시에도 CIDR 블록을 지정하는데 이때 CIDR 블록은 VPC블록 범위의 내이다.
 
-! [Image] (https://docs.aws.amazon.com/ko_kr/AmazonVPC/latest/UserGuide/images/subnets-diagram.png)
+![Image](https://docs.aws.amazon.com/ko_kr/AmazonVPC/latest/UserGuide/images/subnets-diagram.png)
+
 VPC 10.0.0.0/16 \\
+
 Subnet1 10.0.0.0/24 \\
+
 Subnet2 10.0.1.0/24 \\
 
 각 서브넷은 route table을 가지고 있는데
