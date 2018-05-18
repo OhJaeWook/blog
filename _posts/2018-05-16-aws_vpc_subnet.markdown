@@ -28,11 +28,14 @@ Subnet2 10.0.1.0/24
 
 각 서브넷은 route table을 가지고 있는데
 
-만약에 route table을 통해 internet GW와 연결이 된 subnet이라면? public subnet
+만약에 route table을 통해 internet GW와 연결이 된 subnet이라면? 
+_public subnet_
 
-만약에 route table을 통해 internet GW과 연결이 되지않은 subnet이라면? private subnet 이라고 한다.
+만약에 route table을 통해 internet GW과 연결이 되지않은 subnet이라면? 
+_private subnet_
 
-만약에 route table을 통해 internet GW과 연결이 되지않고 VPN과 연결된 subnet이라면? vpn 전용 subnet 이라고 한다.
+만약에 route table을 통해 internet GW과 연결이 되지않고 VPN과 연결된 subnet이라면? 
+_vpn 전용 subnet_
 
 VPC의 IPv4 CIDR 블록의 크기 /16 ~ /28
 
