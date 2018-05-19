@@ -6,10 +6,10 @@ ategories: AWS
 ---
 [https://docs.aws.amazon.com/ko_kr/AmazonVPC/latest/UserGuide/VPC_Subnets.html](https://docs.aws.amazon.com/ko_kr/AmazonVPC/latest/UserGuide/VPC_Subnets.html) 의 내용을 요약한 내용입니다.
 
-VPC(Virtual Private Cloud) AWS계정 전용 가상 네트워크이다.\\
-AWS 클라우드에서 다른 가상 네트워크와 논리적으로 분리 생성시 CIDR 블록을 지정해야 한다.\\
+VPC(Virtual Private Cloud) AWS계정 전용 가상 네트워크이다.
+AWS 클라우드에서 다른 가상 네트워크와 논리적으로 분리 생성시 CIDR 블록을 지정해야 한다
 
-그 범위의 블록에 대해서는 VPC 내부의 subnet 끼리 통신 할 수 있다. \\
+그 범위의 블록에 대해서는 VPC 내부의 subnet 끼리 통신 할 수 있다.
 
 VPC는 리전의 모든 가용 영역에 적용된다. 
 
